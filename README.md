@@ -12,3 +12,20 @@ Steps for Vectorization are as follows -:
 5. Normalization : cleaning data, removing punctuation marks, emoticons etc.
 
 The vectorized output of a document will be a vector of words
+
+
+Lexican Based Approach to Sentimental Analysis:
+This analysis is based on predetermined underlying sentiment behind lexicons(words).
+Every lexicon has a quantative value associated with it, which determines its polarity.
+For e.g. - for english language- excellent, wonderful can have value close to 1 associated with them.
+and words likes terrible, pathetic can have value close to -1 associated with them.
+
+Pros:
+Inability to process acronyms,emoticons,slangs etc.
+Not good for analysing sentiment intensity
+Not able to process Sarcasm
+
+
+
+VADER = Valence Aware Dictionary and Sentiment Reasonator
+Python Library for Lexicon based Sentimental Analysis
