@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Demo of VADER and TextBlob sentiment analyser 
-
-@author: Mayank Rasu
-"""
 
 ################################Vader Demo#####################################
 
